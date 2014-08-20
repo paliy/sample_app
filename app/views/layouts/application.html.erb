@@ -17,9 +17,9 @@
           <%= link_to "sample app", '#', id: "logo" %>
           <nav>
             <ul class="nav pull-right">
-              <li><%= link_to "Home",    '#' %></li>
-              <li><%= link_to "Help",    '#' %></li>
-              <li><%= link_to "Sign in", '#' %></li>
+              <li><%= link_to "Home",    '/static_pages/home' %></li>
+              <li><%= link_to "Help",    '/static_pages/help' %></li>
+              <li><%= link_to "Sign in", '/users/new' %></li>
             </ul>
           </nav>
         </div>
@@ -27,6 +27,19 @@
     </header>
     <div class="container">
       <%= yield %>
+    <footer class="footer">
+      <small>
+        <a href="http://vk.com/id72605466">Вконтакте</a>
+        by Yuriy Paliy
+      </small>
+      <nav>
+        <ul>
+          <li><%= link_to "About",   '/static_pages/about' %></li>
+          <li><%= link_to "Contact", '/static_pages/contact' %></li>
+          <li><a href="http://news.railstutorial.org/">News</a></li>
+        </ul>
+      </nav>
+    </footer>
     </div>
   </body>
 </html>
