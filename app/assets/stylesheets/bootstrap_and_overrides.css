@@ -19,13 +19,6 @@ $grayMediumLight: #eaeaea;
 }
 
 
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #999;
-}
-
 
 /* miscellaneous */
 
@@ -119,9 +112,9 @@ textarea {
   @extend .error;
 }
 
-===========================================================================================
 
-/* universal */===============================================================================
+
+/* universal */
 
 html {
   overflow-y: scroll;
@@ -145,7 +138,7 @@ textarea {
   }
 }
 
-/* typography */===========================================================================
+/* typography */
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
@@ -173,7 +166,7 @@ p {
 }
 
 
-/* header */===========================================================================
+/* header */
 
 #logo {
   float: left;
@@ -185,13 +178,14 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
-  &:hover {
-    color: #fff;
-    text-decoration: none;
-  }
 }
 
-/* forms */==========================================================================
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* forms */
 
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
@@ -205,7 +199,7 @@ input {
 }
 
 
-/* footer */=========================================================================
+/* footer */
 
 footer {
   margin-top: 45px;
