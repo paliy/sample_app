@@ -28,6 +28,21 @@
 }
 
 
+.span8 li {
+  margin-top: 15px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#micropost_content {
+  height: 95px;
+  margin-top: 15px;
+}
+
+.timestamp {
+  color: grey
+}
+
+
 /* universal ===============================================================================*/
 
 html {
@@ -144,3 +159,33 @@ footer ul li {
 
 }
 
+
+/*==================================================================================*/
+.stats {
+  overflow: auto;
+  a {
+    float: left;
+    padding: 0 10px;
+    border-left: 1px solid gray;
+    color: gray;
+    &:first-child {
+      padding-left: 0;
+      border: 0;
+    }
+    &:hover {
+      text-decoration: none;
+      color: #0088cc;
+    }
+  }
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+}
